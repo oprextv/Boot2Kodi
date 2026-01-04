@@ -25,7 +25,7 @@ The following instructions are based on the lastest version of Ubuntu.
    2. For 22.04 - "[server-22.04-iso](https://releases.ubuntu.com/22.04/ubuntu-22.04.4-live-server-amd64.iso)"
    3. For 24.04 - "[server-24.04-iso](https://releases.ubuntu.com/24.04/)"
 2. Make sure git is installed or install git by `sudo apt install git -y`
-3. Clone this repo like `git clone https://github.com/abacao/Boot2Kodi.git`
+3. Clone this repo like `git clone https://github.com/oprextv/Boot2Kodi.git`
 4. `cd Boot2Kodi`
 5. Run the installation script `sudo sh ./install.sh`
 6. Reboot
