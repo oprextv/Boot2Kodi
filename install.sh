@@ -8,7 +8,9 @@ add-apt-repository ppa:ubuntuhandbook1/kodi
 apt update -y && apt upgrade -y
 
 # install kodi and screen output
-apt install kodi kodi-pvr-iptvsimple xinit xorg dbus-x11 xserver-xorg-video-intel xserver-xorg-legacy pulseaudio upower -y --no-install-recommends --no-install-suggests
+apt install kodi
+
+apt install xinit xorg dbus-x11 xserver-xorg-video-intel xserver-xorg-legacy pulseaudio upower -y --no-install-recommends --no-install-suggests
 
 # add user
 adduser --disabled-password --disabled-login --gecos "" kodi
