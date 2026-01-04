@@ -32,10 +32,10 @@ The following instructions are based on the lastest version of Ubuntu.
 
 
 ## Notes:
-- Memory Issues:
-In 20.04, the minimum requirement for RAM is 2Gb.
-In 22.04, the minimum requirement for RAM is 2Gb (4Gb for a physical machine and 2Gb for virtual).
-In 24.04, the minimum requirement for RAM is 4Gb (for a physical machine or virtual).
+Memory Issues:
+- In 20.04, the minimum requirement for RAM is 2Gb.
+- In 22.04, the minimum requirement for RAM is 2Gb (4Gb for a physical machine and 2Gb for virtual).
+- In 24.04, the minimum requirement for RAM is 4Gb (for a physical machine or virtual).
 
 
 ---
@@ -46,3 +46,17 @@ In 24.04, the minimum requirement for RAM is 4Gb (for a physical machine or virt
 - `cd ~/.kodi`
 - `git clone --depth=1 https://github.com/oprextv/cdm.git` add cdm
 - `sudo reboot`
+
+## Test
+- Platform: KVM / QEMU
+- OS: Ubuntu Server 24.04 LTS
+- CPU VM: Dual-core
+- RAM: 4 GB
+- GPU: Virtual (virtio / qxl)
+- Kodi: 21.3 (Omega)
+- Stream test: plugin.video.isasamples
+
+Dual core VM + no VAAPI
+- CPU #0 ~ 98%
+- CPU #1 ~ 92%
+- System memory usage: ~554 MB / 3915 MB (14%)`
