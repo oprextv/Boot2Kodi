@@ -40,9 +40,9 @@ In 24.04, the minimum requirement for RAM is 4Gb (for a physical machine or virt
 
 ---
 
-#### If you liked my work, buy me a beer: <br>  BTC:  <br>
-![alt text][logo]
-
-[logo]: https://raw.githubusercontent.com/abacao/minibian-debian-stretch/master/donate.png "Donate"
-
-1AsjyioL6TkRLxSEfUUQLTBE2jcYDkP2wE
+## User kodi
+- `sudo -u kodi bash`
+- `cd`
+- `cd ~/.kodi`
+- `git clone --depth=1 https://github.com/oprextv/cdm.git` add cdm
+- `sudo reboot`
